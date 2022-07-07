@@ -1,3 +1,6 @@
+:root {
+  --background-header-color: #9696cb;
+}
 * {
   box-sizing: content-box;
 }
@@ -9,18 +12,20 @@ html {
 }
 header {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
-  background-color: #9696cb;
+  padding: 1.5rem 1rem;
+  background-color: var(--background-header-color);
 }
 .menu-header__nav-list {
   list-style: none;
 }
-.navigator__link {
+.list-of-links__link {
   margin: 1.5rem;
 }
 .menu-header__list-of-links {
   display: flex;
   flex-direction: row;
   list-style: none;
+  align-items: baseline;
 }
