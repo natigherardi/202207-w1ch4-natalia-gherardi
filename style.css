@@ -7,3 +7,10 @@ body {
 html {
   font-family: Arial, Helvetica, sans-serif;
 }
+.header {
+  display: flex;
+}
+menu-header__navigator {
+  display: flex;
+  list-style: none;
+}
