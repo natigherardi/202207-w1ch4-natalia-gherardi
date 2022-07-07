@@ -1,5 +1,7 @@
 :root {
-  --background-header-color: #9696cb;
+  --background-header-color: #5e75d1;
+  --shop-summary-color: #f97400;
+  --background-list-of-items: #ff8d26;
 }
 * {
   box-sizing: content-box;
@@ -10,7 +12,7 @@ body {
 html {
   font-family: Arial, Helvetica, sans-serif;
 }
-header {
+.menu-header {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
@@ -28,4 +30,15 @@ header {
   flex-direction: row;
   list-style: none;
   align-items: baseline;
+}
+.shop-summary-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  font-size: 2.3rem;
+  padding: 2rem;
+  background-color: var(--shop-summary-color);
+}
+.shopping-list__list {
+  list-style: none;
 }
