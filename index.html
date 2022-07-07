@@ -6,18 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lista de la compra</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
     <title>Lista de la compra</title>
   </head>
   <body>
-    <header class="menu-header">
-      <h1 class="menu-header__title">Lista de la compra</h1>
-      <nav class="menu-header__nav-list">
-        <ul class="menu-header__list-of-links">
-          <li class="list-of-links__link">Principal</li>
-          <li class="list-of-links__link">Lista</li>
-          <li class="list-of-links__link">Acerca de</li>
-        </ul>
-      </nav>
-    </header>
+    <div class="major-container">
+      <header class="menu-header">
+        <h1 class="menu-header__title">Lista de la compra</h1>
+        <nav class="menu-header__nav-list">
+          <ul class="menu-header__list-of-links">
+            <li class="list-of-links__link">Principal</li>
+            <li class="list-of-links__link">Lista</li>
+            <li class="list-of-links__link">Acerca de</li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main-container">
+        <section class="shop-summary-container">
+          <i class="fas fa-plus-circle"></i>
+          <span class="main-container__amount-bought">2/3 comprados</span>
+        </section>
+        <section class="shopping-list">
+          <ul class="shopping-list__list">
+            <li class="shopping-list__item--strikethrough">
+              <input type="checkbox" />
+              Pan
+            </li>
+            <li><input type="checkbox" /> Azúcar</li>
+            <li class="shopping-list__item--strikethrough">
+              <input type="checkbox" />
+              Leche
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
   </body>
 </html>

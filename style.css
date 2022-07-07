@@ -1,21 +1,34 @@
 :root {
-  --background-header-color: #9696cb;
+  --background-header-color: #5e75d1;
+  --shop-summary-color: #f97400;
+  --background-list-of-items: #ff8d26;
 }
 * {
   box-sizing: content-box;
+      color: #3c3b3b;
+
 }
 body {
   margin: 2rem;
+  height: 100vh;
+}
+.major-container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
 }
 html {
   font-family: Arial, Helvetica, sans-serif;
 }
-header {
+.menu-header {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   padding: 1.5rem 1rem;
   background-color: var(--background-header-color);
+}
+.menu-header__title{
+  fon
 }
 .menu-header__nav-list {
   list-style: none;
@@ -28,4 +41,29 @@ header {
   flex-direction: row;
   list-style: none;
   align-items: baseline;
+  font-size: 1.48rem;
+}
+.shopping-list {
+  height: 100%;
+  background-color: var(--background-list-of-items);
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.shop-summary-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  font-size: 2rem;
+  padding: 2rem;
+  background-color: var(--shop-summary-color);
+}
+.shopping-list__list {
+  list-style: none;
+  font-size: 1.48rem;
+}
+.shopping-list__item--strikethrough {
+  text-decoration: line-through;
 }
