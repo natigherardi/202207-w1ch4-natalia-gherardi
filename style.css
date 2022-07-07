@@ -31,6 +31,13 @@ html {
   list-style: none;
   align-items: baseline;
 }
+.shopping-list {
+  background-color: var(--background-list-of-items);
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
 .shop-summary-container {
   display: flex;
   align-items: baseline;
