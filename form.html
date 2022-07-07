@@ -26,15 +26,24 @@
       </header>
       <main class="main-container">
         <section class="shop-summary-container">
-          <i class="fas fa-plus-circle"></i>
+          <i class="fas fa-plus-circle" onclick=""></i>
           <span class="main-container__amount-bought">2/3 comprados</span>
         </section>
-        <section class="form">
+        <section class="second-section form">
           <h2 class="form-tittle">Editar artículo</h2>
-          <label for="name">Nombre:</label>
-          <input type="text" id="name" />
-          <label for="cost">Precio:</label>
-          <input type="text" id="cost" />
+          <label for="name" class="second-section__element">Nombre:</label>
+          <input
+            type="text"
+            id="name"
+            class="form-box second-section__element"
+          />
+          <label for="cost" class="second-section__element">Precio:</label>
+          <input
+            type="text"
+            id="cost"
+            class="form-box second-section__element"
+          />
+          <button class="second-section__element edit-button">Modificar</button>
         </section>
       </main>
     </div>

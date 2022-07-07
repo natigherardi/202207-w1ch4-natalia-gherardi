@@ -40,7 +40,7 @@ html {
   align-items: baseline;
   font-size: 1.48rem;
 }
-.shopping-list {
+.second-section {
   height: 100%;
   background-color: var(--background-list-of-items);
 }
@@ -66,4 +66,23 @@ html {
 }
 .end-line {
   width: 90%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+}
+.form-box {
+  width: 18rem;
+  height: 3rem;
+}
+.edit-button {
+  width: 10%;
+  height: 10%;
+  color: #fcfcfc;
+  background-color: var(--background-header-color);
+  border: 0;
+}
+.second-section__element {
+  margin: 0.5rem;
 }
