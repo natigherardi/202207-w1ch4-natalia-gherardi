@@ -42,3 +42,6 @@ html {
 .shopping-list__list {
   list-style: none;
 }
+.shopping-list__item--strikethrough {
+  text-decoration: line-through;
+}
