@@ -5,8 +5,7 @@
 }
 * {
   box-sizing: content-box;
-      color: #3c3b3b;
-
+  color: #3c3b3b;
 }
 body {
   margin: 2rem;
@@ -27,9 +26,7 @@ html {
   padding: 1.5rem 1rem;
   background-color: var(--background-header-color);
 }
-.menu-header__title{
-  fon
-}
+
 .menu-header__nav-list {
   list-style: none;
 }
@@ -66,4 +63,7 @@ html {
 }
 .shopping-list__item--strikethrough {
   text-decoration: line-through;
+}
+.end-line {
+  width: 90%;
 }
