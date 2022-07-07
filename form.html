@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lista de la compra</title>
-    <link rel="shortcut icon" href="/media/favicon-1.jpg" type="image/x-icon" />
+    <link rel="shortcut icon" href="/media/favicon-2.png" type="image/x-icon" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -27,25 +27,26 @@
       </header>
       <main class="main-container">
         <section class="shop-summary-container">
-          <a href="form.html">
-            <i class="fas fa-plus-circle"></i>
+          <a href="index.html">
+            <i class="fa-solid fa-minus"></i>
           </a>
-
           <span class="main-container__amount-bought">2/3 comprados</span>
         </section>
-        <section class="second-section">
-          <ul class="shopping-list__list">
-            <li class="shopping-list__item--strikethrough">
-              <input type="checkbox" />
-              Pan
-            </li>
-            <li><input type="checkbox" /> Azúcar</li>
-            <li class="shopping-list__item--strikethrough">
-              <input type="checkbox" />
-              Leche
-            </li>
-          </ul>
-          <hr class="end-line" />
+        <section class="second-section form">
+          <h2 class="form-tittle">Editar artículo</h2>
+          <label for="name" class="second-section__element">Nombre:</label>
+          <input
+            type="text"
+            id="name"
+            class="form-box second-section__element"
+          />
+          <label for="cost" class="second-section__element">Precio:</label>
+          <input
+            type="text"
+            id="cost"
+            class="form-box second-section__element"
+          />
+          <button class="second-section__element edit-button">Modificar</button>
         </section>
       </main>
     </div>
